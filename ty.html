@@ -13,5 +13,17 @@
     </head>
     <body style="background-color: hsl(11, 28%, 12%); margin-top: calc(50vh - 12px);">
         <h1 style="color: white;" class="section__title">Thank you for contacting me, I will respond as soon as possible</h1>
+        <br>
+        <h1 style="color: white;" class="section__title">Redirecting in <span id="counter">5</span>...</h1>
+        <script>
+            setInterval(function() {
+                var div = document.querySelector("#counter");
+                var count = div.textContent * 1 - 1;
+                div.textContent = count;
+                if (count <= 0) {
+                    window.location.replace("https://mishaelchl.github.io/");
+                }
+            }, 1000);
+        </script>
     </body>
 </html>
