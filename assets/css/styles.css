@@ -409,13 +409,13 @@ img{
 
 .about__description{
     text-align: center;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-2);
 }
 
 .about__info{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: var(--mb-2-5);
+    margin-bottom: var(--mb-2);
 }
 
 .about__info-title{
@@ -1195,7 +1195,7 @@ img{
     }
 
     .about__container{
-        column-gap: 5rem;
+        column-gap: 1rem;
     }
 
     .about__img{
